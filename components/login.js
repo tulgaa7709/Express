@@ -1,9 +1,14 @@
 import React from 'react'
 
-function login() {
+function Login() {
     return (
-        <div>dasa</div>
+        <div className='flex'>
+            <div className="w-1/2 bg-white h-[100vh]">
+                <div></div>
+            </div>
+            <div className="w-1/2 bg-[#0166FF] h-[100vh]"></div>
+        </div>
     )
 }
 
-export default login
+export default Login
